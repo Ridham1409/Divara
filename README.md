@@ -1,16 +1,31 @@
-# sisters_collection
+# 💎 DIVARA - Premium Jewelry Store App
 
-A new Flutter project.
+DIVARA is a sophisticated e-commerce mobile application built with **Flutter**, designed specifically for premium jewelry businesses. It provides a seamless shopping experience with a focus on elegant UI, real-time updates, and secure communication.
 
-## Getting Started
+## ✨ Key Features
 
-This project is a starting point for a Flutter application.
+* **Premium Product Catalog**: Display jewelry with high-quality images and detailed descriptions.
+* **WhatsApp Order Integration**: Direct "Order Now" functionality that connects customers to your WhatsApp with pre-filled product details.
+* **Dynamic Banner Ads**: Integrated **Google AdMob** to monetize the app with non-intrusive banner ads.
+* **Remote Configuration**: Managed via **Firebase Remote Config**, allowing real-time updates of WhatsApp numbers and sale statuses without app updates.
+* **Push Notifications**: Integrated **Firebase Cloud Messaging (FCM)** for instant alerts on new arrivals and offers.
+* **Crash Analytics**: Uses **Firebase Crashlytics** to monitor and fix app stability issues in real-time.
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠️ Tech Stack
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+* **Frontend**: Flutter (Dart)
+* **Backend**: Firebase (Core, Remote Config, Messaging, Crashlytics)
+* **Monetization**: Google Mobile Ads (AdMob)
+* **Theme**: Custom Light Theme with premium aesthetics.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🚀 Getting Started
+
+### Prerequisites
+* Flutter SDK installed on your machine.
+* A Firebase project set up and connected to the app.
+* Google AdMob account for valid Ad Unit IDs.
+
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/your-username/divara_app.git](https://github.com/your-username/divara_app.git)
