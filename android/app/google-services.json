@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "913608274740",
+    "project_id": "divara-store",
+    "storage_bucket": "divara-store.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:913608274740:android:29a25d5d1fcba60dfceb61",
+        "android_client_info": {
+          "package_name": "com.shop.divara"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "913608274740-h8ma0ucldi9f4qkrqs36sfgucnr1cbqn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shop.divara",
+            "certificate_hash": "f58fad5186aaf63370926d6f7a9d6ee81334993a"
+          }
+        },
+        {
+          "client_id": "913608274740-0q2g8abt81j5krimqpa674vj8u3da0dn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCesCmYeNqRQYsJ7Q-5xppRt2G0SaUmmu8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "913608274740-0q2g8abt81j5krimqpa674vj8u3da0dn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,63 @@
+name: sisters_collection
+description: "Divara Jewellery - A Premium Flutter App."
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.10.4 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI & Utilities
+  cupertino_icons: ^1.0.8
+  cached_network_image: ^3.3.1
+  google_fonts: ^6.2.1
+  http: ^1.2.1
+  image_picker: ^1.0.4
+  url_launcher: ^6.3.2
+  intl: ^0.19.0
+  shared_preferences: ^2.2.0
+  firebase_crashlytics: ^4.0.1
+  firebase_remote_config: ^5.0.1
+  google_mobile_ads: ^5.1.0
+
+  # Launcher Icons & Splash
+  flutter_launcher_icons: ^0.13.1
+  flutter_native_splash: ^2.3.10
+
+  # 🔥 FIREBASE (બધા સુધારેલા અને મેચ થતા વર્ઝન)
+  firebase_core: ^3.1.0
+  firebase_auth: ^5.1.0
+  google_sign_in: ^6.2.1
+  cloud_firestore: ^5.0.1 # થોડું સ્ટેબલ વર્ઝન લીધું છે જેથી એરર ના આવે
+  firebase_storage: ^12.0.0 # આ નવું વર્ઝન છે જે મેચ થશે
+  firebase_messaging: ^15.0.2
+  flutter_local_notifications: ^17.1.0
+  geolocator: ^14.0.2
+  geocoding: ^4.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/logo2.png"
+  adaptive_icon_background: "#EBDDD4"
+
+flutter_native_splash:
+  color: "#EBDDD4"
+  image: "assets/images/logo2.png"
+  android_12:
+    image: "assets/images/logo2.png"
+    color: "#EBDDD4"
